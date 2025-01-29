@@ -1,0 +1,13 @@
+# Activer la réécriture d'URL
+RewriteEngine On
+
+# Exclure les fichiers et dossiers existants pour ne pas interférer avec les fichiers statiques
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+
+# Rediriger toutes les requêtes vers router.php
+RewriteRule ^(.+)$ router.php [QSA,L]
+
+# Exclure les fichiers statiques (CSS, JS, images)
+RewriteCond %{REQUEST_URI} !^/assets/
+

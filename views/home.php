@@ -30,7 +30,7 @@
         </details>
     </div>
 </div>
-<div class="message" id="contact">
+<div class="message" id="nous-contacter">
     <h1>Nous contacter</h1>
     </br>
     <p>

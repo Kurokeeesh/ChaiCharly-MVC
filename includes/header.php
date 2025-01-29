@@ -16,12 +16,12 @@
     <img class="logoHead" src="/assets/img/Logo-removebg-preview.png">
     <nav>
         <ul>
-            <li class="page"><a href='/views/home.php'>Accueil</a></li>
-            <li><a href='/views/vins.php'>Nos Vins</a></li>
-            <li><a href='/views/tarifs.php'>Tarifs</a></li>
+            <li><a href="/Accueil">Accueil</a></li>
+            <li><a href="/Nos-vins">Nos Vins</a></li>
+            <li><a href="/Nos-tarifs">Tarifs</a></li>
         </ul>
     </nav>
     <div class="contact-btn">
-        <a href="home.php/#contact">Nous Contacter</a>
+        <a href="/Accueil#nous-contacter">Nous contacter</a>
     </div>
 </header>
